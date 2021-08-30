@@ -1,0 +1,18 @@
+import React from 'react';
+import style from './Button3.module.scss';
+import cn from 'classnames';
+
+function Button({ size }) {
+    if (size === 'big') {
+        return <button className={cn(style.button, style.big)}>큰버튼</button>;
+    } else {
+        return (
+            <button className={cn(style.button, style.small)}>
+                작은버튼
+            </button>
+        );
+    }
+}
+
+export default Button;
+console.log(style);

@@ -23,7 +23,7 @@ function Container() {
             React.createElement(
                 'button',
                 { onClick: () => setCount(count + 1) },
-                '중가',
+                '증가',
             ),
             React.createElement(
                 'button',
